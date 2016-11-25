@@ -9,12 +9,27 @@
 /* Begin PBXBuildFile section */
 		2744FB0C1D2E4E8700AE0211 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2744FB0B1D2E4E8700AE0211 /* main.m */; };
 		2744FB0F1D2E4E8700AE0211 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2744FB0E1D2E4E8700AE0211 /* AppDelegate.m */; };
-		2744FB121D2E4E8700AE0211 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2744FB111D2E4E8700AE0211 /* ViewController.m */; };
 		2744FB151D2E4E8700AE0211 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2744FB131D2E4E8700AE0211 /* Main.storyboard */; };
 		2744FB171D2E4E8700AE0211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2744FB161D2E4E8700AE0211 /* Assets.xcassets */; };
 		2744FB1A1D2E4E8700AE0211 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2744FB181D2E4E8700AE0211 /* LaunchScreen.storyboard */; };
 		2744FB251D2E4E8700AE0211 /* MutableImagePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2744FB241D2E4E8700AE0211 /* MutableImagePickerTests.m */; };
 		2744FB301D2E4E8700AE0211 /* MutableImagePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2744FB2F1D2E4E8700AE0211 /* MutableImagePickerUITests.m */; };
+		2744FB671D2E643900AE0211 /* MutaImgPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2744FB511D2E643900AE0211 /* MutaImgPickerController.m */; };
+		2744FB681D2E643900AE0211 /* MutaImgPickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2744FB521D2E643900AE0211 /* MutaImgPickerController.xib */; };
+		2744FB691D2E643900AE0211 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2744FB541D2E643900AE0211 /* ViewController.m */; };
+		2744FB6A1D2E643900AE0211 /* PhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2744FB571D2E643900AE0211 /* PhotoModel.m */; };
+		2744FB6B1D2E643900AE0211 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2744FB5A1D2E643900AE0211 /* SVIndefiniteAnimatedView.m */; };
+		2744FB6C1D2E643900AE0211 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2744FB5C1D2E643900AE0211 /* SVProgressAnimatedView.m */; };
+		2744FB6D1D2E643900AE0211 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2744FB5E1D2E643900AE0211 /* SVProgressHUD.bundle */; };
+		2744FB6E1D2E643900AE0211 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2744FB601D2E643900AE0211 /* SVProgressHUD.m */; };
+		2744FB6F1D2E643900AE0211 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2744FB621D2E643900AE0211 /* SVRadialGradientLayer.m */; };
+		2744FB701D2E643900AE0211 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2744FB651D2E643900AE0211 /* PhotoCell.m */; };
+		2744FB711D2E643900AE0211 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2744FB661D2E643900AE0211 /* PhotoCell.xib */; };
+		2744FB751D2E668900AE0211 /* ChoosedImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2744FB731D2E668900AE0211 /* ChoosedImageCell.m */; };
+		2744FB761D2E668900AE0211 /* ChoosedImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2744FB741D2E668900AE0211 /* ChoosedImageCell.xib */; };
+		27D1534B1D2FAC90009AC244 /* AlbumInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D1534A1D2FAC90009AC244 /* AlbumInfo.m */; };
+		27D1534F1D2FBBA8009AC244 /* AlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D1534D1D2FBBA8009AC244 /* AlbumCell.m */; };
+		27D153501D2FBBA8009AC244 /* AlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27D1534E1D2FBBA8009AC244 /* AlbumCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +54,6 @@
 		2744FB0B1D2E4E8700AE0211 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2744FB0D1D2E4E8700AE0211 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2744FB0E1D2E4E8700AE0211 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2744FB101D2E4E8700AE0211 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2744FB111D2E4E8700AE0211 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2744FB141D2E4E8700AE0211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2744FB161D2E4E8700AE0211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2744FB191D2E4E8700AE0211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +64,34 @@
 		2744FB2B1D2E4E8700AE0211 /* MutableImagePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutableImagePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2744FB2F1D2E4E8700AE0211 /* MutableImagePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutableImagePickerUITests.m; sourceTree = "<group>"; };
 		2744FB311D2E4E8700AE0211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2744FB501D2E643900AE0211 /* MutaImgPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutaImgPickerController.h; sourceTree = "<group>"; };
+		2744FB511D2E643900AE0211 /* MutaImgPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutaImgPickerController.m; sourceTree = "<group>"; };
+		2744FB521D2E643900AE0211 /* MutaImgPickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MutaImgPickerController.xib; sourceTree = "<group>"; };
+		2744FB531D2E643900AE0211 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2744FB541D2E643900AE0211 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2744FB561D2E643900AE0211 /* PhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoModel.h; sourceTree = "<group>"; };
+		2744FB571D2E643900AE0211 /* PhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoModel.m; sourceTree = "<group>"; };
+		2744FB591D2E643900AE0211 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		2744FB5A1D2E643900AE0211 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		2744FB5B1D2E643900AE0211 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		2744FB5C1D2E643900AE0211 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		2744FB5D1D2E643900AE0211 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		2744FB5E1D2E643900AE0211 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		2744FB5F1D2E643900AE0211 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		2744FB601D2E643900AE0211 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		2744FB611D2E643900AE0211 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		2744FB621D2E643900AE0211 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		2744FB641D2E643900AE0211 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		2744FB651D2E643900AE0211 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		2744FB661D2E643900AE0211 /* PhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		2744FB721D2E668900AE0211 /* ChoosedImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoosedImageCell.h; sourceTree = "<group>"; };
+		2744FB731D2E668900AE0211 /* ChoosedImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoosedImageCell.m; sourceTree = "<group>"; };
+		2744FB741D2E668900AE0211 /* ChoosedImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChoosedImageCell.xib; sourceTree = "<group>"; };
+		27D153491D2FAC90009AC244 /* AlbumInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumInfo.h; sourceTree = "<group>"; };
+		27D1534A1D2FAC90009AC244 /* AlbumInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumInfo.m; sourceTree = "<group>"; };
+		27D1534C1D2FBBA8009AC244 /* AlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumCell.h; sourceTree = "<group>"; };
+		27D1534D1D2FBBA8009AC244 /* AlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumCell.m; sourceTree = "<group>"; };
+		27D1534E1D2FBBA8009AC244 /* AlbumCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlbumCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +142,16 @@
 		2744FB091D2E4E8700AE0211 /* MutableImagePicker */ = {
 			isa = PBXGroup;
 			children = (
+				2744FB4F1D2E643900AE0211 /* Controller */,
+				2744FB551D2E643900AE0211 /* Model */,
+				2744FB631D2E643900AE0211 /* View */,
 				2744FB0D1D2E4E8700AE0211 /* AppDelegate.h */,
 				2744FB0E1D2E4E8700AE0211 /* AppDelegate.m */,
-				2744FB101D2E4E8700AE0211 /* ViewController.h */,
-				2744FB111D2E4E8700AE0211 /* ViewController.m */,
 				2744FB131D2E4E8700AE0211 /* Main.storyboard */,
 				2744FB161D2E4E8700AE0211 /* Assets.xcassets */,
 				2744FB181D2E4E8700AE0211 /* LaunchScreen.storyboard */,
 				2744FB1B1D2E4E8700AE0211 /* Info.plist */,
+				2744FB581D2E643900AE0211 /* SVProgressHUD */,
 				2744FB0A1D2E4E8700AE0211 /* Supporting Files */,
 			);
 			path = MutableImagePicker;
@@ -138,6 +181,62 @@
 				2744FB311D2E4E8700AE0211 /* Info.plist */,
 			);
 			path = MutableImagePickerUITests;
+			sourceTree = "<group>";
+		};
+		2744FB4F1D2E643900AE0211 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2744FB531D2E643900AE0211 /* ViewController.h */,
+				2744FB541D2E643900AE0211 /* ViewController.m */,
+				2744FB501D2E643900AE0211 /* MutaImgPickerController.h */,
+				2744FB511D2E643900AE0211 /* MutaImgPickerController.m */,
+				2744FB521D2E643900AE0211 /* MutaImgPickerController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2744FB551D2E643900AE0211 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2744FB561D2E643900AE0211 /* PhotoModel.h */,
+				2744FB571D2E643900AE0211 /* PhotoModel.m */,
+				27D153491D2FAC90009AC244 /* AlbumInfo.h */,
+				27D1534A1D2FAC90009AC244 /* AlbumInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2744FB581D2E643900AE0211 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				2744FB591D2E643900AE0211 /* SVIndefiniteAnimatedView.h */,
+				2744FB5A1D2E643900AE0211 /* SVIndefiniteAnimatedView.m */,
+				2744FB5B1D2E643900AE0211 /* SVProgressAnimatedView.h */,
+				2744FB5C1D2E643900AE0211 /* SVProgressAnimatedView.m */,
+				2744FB5D1D2E643900AE0211 /* SVProgressHUD-Prefix.pch */,
+				2744FB5E1D2E643900AE0211 /* SVProgressHUD.bundle */,
+				2744FB5F1D2E643900AE0211 /* SVProgressHUD.h */,
+				2744FB601D2E643900AE0211 /* SVProgressHUD.m */,
+				2744FB611D2E643900AE0211 /* SVRadialGradientLayer.h */,
+				2744FB621D2E643900AE0211 /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		2744FB631D2E643900AE0211 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2744FB641D2E643900AE0211 /* PhotoCell.h */,
+				2744FB651D2E643900AE0211 /* PhotoCell.m */,
+				2744FB661D2E643900AE0211 /* PhotoCell.xib */,
+				2744FB721D2E668900AE0211 /* ChoosedImageCell.h */,
+				2744FB731D2E668900AE0211 /* ChoosedImageCell.m */,
+				2744FB741D2E668900AE0211 /* ChoosedImageCell.xib */,
+				27D1534C1D2FBBA8009AC244 /* AlbumCell.h */,
+				27D1534D1D2FBBA8009AC244 /* AlbumCell.m */,
+				27D1534E1D2FBBA8009AC244 /* AlbumCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +342,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2744FB711D2E643900AE0211 /* PhotoCell.xib in Resources */,
+				2744FB761D2E668900AE0211 /* ChoosedImageCell.xib in Resources */,
+				2744FB6D1D2E643900AE0211 /* SVProgressHUD.bundle in Resources */,
 				2744FB1A1D2E4E8700AE0211 /* LaunchScreen.storyboard in Resources */,
 				2744FB171D2E4E8700AE0211 /* Assets.xcassets in Resources */,
+				2744FB681D2E643900AE0211 /* MutaImgPickerController.xib in Resources */,
 				2744FB151D2E4E8700AE0211 /* Main.storyboard in Resources */,
+				27D153501D2FBBA8009AC244 /* AlbumCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +374,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2744FB121D2E4E8700AE0211 /* ViewController.m in Sources */,
+				27D1534B1D2FAC90009AC244 /* AlbumInfo.m in Sources */,
 				2744FB0F1D2E4E8700AE0211 /* AppDelegate.m in Sources */,
+				2744FB6F1D2E643900AE0211 /* SVRadialGradientLayer.m in Sources */,
+				2744FB6E1D2E643900AE0211 /* SVProgressHUD.m in Sources */,
+				27D1534F1D2FBBA8009AC244 /* AlbumCell.m in Sources */,
+				2744FB6A1D2E643900AE0211 /* PhotoModel.m in Sources */,
 				2744FB0C1D2E4E8700AE0211 /* main.m in Sources */,
+				2744FB6C1D2E643900AE0211 /* SVProgressAnimatedView.m in Sources */,
+				2744FB701D2E643900AE0211 /* PhotoCell.m in Sources */,
+				2744FB691D2E643900AE0211 /* ViewController.m in Sources */,
+				2744FB671D2E643900AE0211 /* MutaImgPickerController.m in Sources */,
+				2744FB6B1D2E643900AE0211 /* SVIndefiniteAnimatedView.m in Sources */,
+				2744FB751D2E668900AE0211 /* ChoosedImageCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +612,7 @@
 				2744FB361D2E4E8700AE0211 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2744FB371D2E4E8700AE0211 /* Build configuration list for PBXNativeTarget "MutableImagePickerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +621,7 @@
 				2744FB391D2E4E8700AE0211 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2744FB3A1D2E4E8700AE0211 /* Build configuration list for PBXNativeTarget "MutableImagePickerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +630,7 @@
 				2744FB3C1D2E4E8700AE0211 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
